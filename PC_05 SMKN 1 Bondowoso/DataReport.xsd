@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataReport" targetNamespace="http://tempuri.org/DataReport.xsd" xmlns:mstns="http://tempuri.org/DataReport.xsd" xmlns="http://tempuri.org/DataReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataReport" msprop:Generator_UserDSName="DataReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Report" msprop:Generator_TableClassName="ReportDataTable" msprop:Generator_TableVarName="tableReport" msprop:Generator_RowChangedName="ReportRowChanged" msprop:Generator_TablePropName="Report" msprop:Generator_RowDeletingName="ReportRowDeleting" msprop:Generator_RowChangingName="ReportRowChanging" msprop:Generator_RowEvHandlerName="ReportRowChangeEventHandler" msprop:Generator_RowDeletedName="ReportRowDeleted" msprop:Generator_RowClassName="ReportRow" msprop:Generator_UserTableName="Report" msprop:Generator_RowEvArgName="ReportRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NIK" msprop:Generator_ColumnVarNameInTable="columnNIK" msprop:Generator_ColumnPropNameInRow="NIK" msprop:Generator_ColumnPropNameInTable="NIKColumn" msprop:Generator_UserColumnName="NIK" type="xs:string" minOccurs="0" />
+              <xs:element name="Nama" msprop:Generator_ColumnVarNameInTable="columnNama" msprop:Generator_ColumnPropNameInRow="Nama" msprop:Generator_ColumnPropNameInTable="NamaColumn" msprop:Generator_UserColumnName="Nama" type="xs:string" minOccurs="0" />
+              <xs:element name="Tanggal_vaksin" msprop:Generator_ColumnVarNameInTable="columnTanggal_vaksin" msprop:Generator_ColumnPropNameInRow="Tanggal_vaksin" msprop:Generator_ColumnPropNameInTable="Tanggal_vaksinColumn" msprop:Generator_UserColumnName="Tanggal_vaksin" type="xs:string" minOccurs="0" />
+              <xs:element name="Jenis_Vaksin" msprop:Generator_ColumnVarNameInTable="columnJenis_Vaksin" msprop:Generator_ColumnPropNameInRow="Jenis_Vaksin" msprop:Generator_ColumnPropNameInTable="Jenis_VaksinColumn" msprop:Generator_UserColumnName="Jenis_Vaksin" type="xs:string" minOccurs="0" />
+              <xs:element name="Nama_Dokter" msprop:Generator_ColumnVarNameInTable="columnNama_Dokter" msprop:Generator_ColumnPropNameInRow="Nama_Dokter" msprop:Generator_ColumnPropNameInTable="Nama_DokterColumn" msprop:Generator_UserColumnName="Nama_Dokter" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
